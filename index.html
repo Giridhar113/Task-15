@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML TASK: Lists, Tables & Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        /* Title */
+        .main-title {
+            font-size: 40px;
+            color: #1f5d9b;
+        }
+
+        .main-title span {
+            color: #c4681b;
+        }
+
+        /* Section headings */
+        h2 {
+            color: #1f5d9b;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        /* Table styling */
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th {
+            background: #1f5d9b;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #888;
+            text-align: center;
+        }
+
+        /* Layout for form section */
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .left {
+            width: 45%;
+        }
+
+        .right {
+            width: 45%;
+        }
+
+        /* Contact form box */
+
+        .form-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .form-box h3 {
+            text-align: center;
+        }
+
+        .form-box input,
+        .form-box textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+
+        button {
+            background: #1f5d9b;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="main-title">
+        HTML TASK: <span>Lists, Tables & Forms</span>
+    </h1>
+
+    <hr>
+
+    <h2>1. Create a List</h2>
+
+    <p>Create an ordered list of <strong>“Steps to Make a Sandwich”:</strong></p>
+
+    <ol>
+        <li>Gather Ingredients</li>
+        <li>Spread the Condiments</li>
+        <li>Add the Fillings</li>
+        <li>Put the Sandwich Together</li>
+    </ol>
+
+    <hr>
+
+    <h2>2. Build a Table</h2>
+
+    <p>Create a table showing <strong>“Student Grades”:</strong></p>
+
+    <table>
+
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>Math</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>Sarah</td>
+            <td>Science</td>
+            <td>B+</td>
+        </tr>
+
+        <tr>
+            <td>Mike</td>
+            <td>History</td>
+            <td>C</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <div class="container">
+
+        <div class="left">
+
+            <h2>3. Create a Form</h2>
+
+            <p>Design a <strong>“Contact Us”</strong> form with the following fields:</p>
+
+            <ul>
+                <li>Name</li>
+                <li>Email</li>
+                <li>Message</li>
+                <li>Submit Button</li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+
+            <div class="form-box">
+
+                <h3>Contact Us</h3>
+
+                <form>
+
+                    <label>Name:</label>
+                    <input type="text" required>
+
+                    <label>Email:</label>
+                    <input type="email" required>
+
+                    <label>Message:</label>
+                    <textarea rows="4"></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h3 style="text-align:center;">
+        Complete all tasks using proper HTML!
+    </h3>
+
+</body>
+
+</html>
